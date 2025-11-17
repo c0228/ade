@@ -1,0 +1,4 @@
+{
+    "gender": [{ "id": "Male", "label": "Male", "value": "Male" },
+            { "id": "Female", "label": "Female", "value": "Female" }]
+}
