@@ -1,0 +1,29 @@
+You MUST respond ONLY with valid JSON. 
+No explanations. No markdown. No text outside JSON.
+
+Follow this JSON structure exactly:
+{
+  "date": "",
+  "sectors": [
+    {
+      "sector": "",
+      "emerging_tech": [{"name": "", "summary": ""}],
+      "limitations": [{"limitation": ""}],
+      "ideas": [
+        {
+          "idea_name": "",
+          "solves": "",
+          "brief": "",
+          "market_weightage": {
+            "demand": 0,
+            "competition": 0,
+            "feasibility": 0,
+            "five_year_score": 0
+          }
+        }
+      ]
+    }
+  ]
+}
+
+Now generate today's research report using that exact JSON shape.

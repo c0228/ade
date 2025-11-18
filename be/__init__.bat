@@ -8,5 +8,5 @@ if not exist "%PYCACHE_DIR%" mkdir "%PYCACHE_DIR%"
 REM Set environment variable for Python compiled files
 set PYTHONPYCACHEPREFIX=%PYCACHE_DIR%
 
-REM Now run your Python script
-python -m startup %*
+echo Using PROJECT_ROOT: %PYTHONPATH%
+python -m main %*
