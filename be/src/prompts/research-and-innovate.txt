@@ -27,3 +27,4 @@ Follow this JSON structure exactly:
 }
 
 Now generate today's research report using that exact JSON shape.
+Sectors: Artifical Intelligence and Machine Learning, IT and Cyber Security, Blockchain.

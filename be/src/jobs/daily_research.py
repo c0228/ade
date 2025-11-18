@@ -1,5 +1,5 @@
 import json
-import datetime
+from datetime import datetime
 import time
 import os
 from pathlib import Path
@@ -71,7 +71,7 @@ def run_daily_research():
     # -----------------------------------------------------------
     # 5. Save JSON file
     # -----------------------------------------------------------
-    timestamp = int(time.time() * 1000)
+    timestamp = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
     filename = f"data/research/daily_research_{timestamp}.json"
     file_path = Path(filename)
 
